@@ -1,0 +1,6 @@
+{
+    "presets":["@babel/preset-env"] //이걸 작동하는지 보려면 index.js 코드에서 const express= require("express"); 이걸 
+        //최신버젼으로 바꿀 수 있는지 보는거임-> import express from "express"; 라고 바꾾 후 package.json에 들가서 scripts 부분에서
+        //"start": "babel-node index.js" 라고 써줌. 이제 node가 내 index.js를 실행하는 대신 babel이 실행해주길 바라는것. 
+        //그럼 바벨이 코드를 변환해줄것임 못생긴 코드로 바뀔 것. 그 코드를 node js로 실행시켜주는것.
+}
