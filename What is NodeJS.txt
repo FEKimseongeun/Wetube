@@ -81,4 +81,24 @@ lala =() => {
 이렇게..
 
 
+cookieParser는 cookie를 전달 받아서 사용할 수 있도록 만들어주는 미들웨어
+사용자인증 같은 곳에서 쿠카를 검사할 대 사용해야함.
 
+bodyParser 사용자각 웹사이트로 전달하는 정보들을 검사하는 미들웨어
+request 정보에서 form 이나 json 형태로 된 body를 검사
+아바타의 사진이나 비디오를 업로드 할 때, 제목이나 댓글 같은 정보를 전달할때 form 에 담아서 업로드 해ㅐ야 하기 때문 
+
+halmet 미들 웨어는 application이 더 안전하도록 만들어줌.
+
+morgan 미들웨어의 역할은 application에서 발생하는 모든 일들을 logging 하는 것임.
+
+
+controller와 router를 연결 시키고 하는 부분이 MVC에서 C 부분을 맡고  있음.
+css 로 웹사이트를 꾸미고 하는 것이 MVC 에서 V 에 해당되는데 
+pUG로 V부분 구성하기도 함.'
+PUG은 view engine 
+Pug은 템플릿 언어임. express의 view engine이라는 것.
+pug은 html 파일들이 더 아름답게(?) 보이도록 만들어줌
+
+지금까지는 HTML, CSS 에 대해서만 알고있었을텐데, 계속 header, footer같은 부분을 복사-붙여넣기
+했어야 했기 때문에 못생기게 코드가 나열되어있었을 것임.

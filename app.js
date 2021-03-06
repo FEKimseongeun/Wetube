@@ -15,6 +15,9 @@ const app = express();
 
 // const handleProfile=(req, res) => res.send("You are on my profile"); 
 
+
+app.set("view engine", "pug");
+// middleware  부분
 app.use(cookieParser());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));

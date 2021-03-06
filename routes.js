@@ -12,7 +12,7 @@ const SEARCH ="/search";
 const USERS ="/users";
 const USER_DETAIL="/:id";
 const EDIT_PROFILE="/edit-profile";
-const CHANGE_PASSWORD ="/chagepaassword";
+const CHANGE_PASSWORD ="/chagepassword";
 
 //Videos
 
